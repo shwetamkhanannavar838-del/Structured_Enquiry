@@ -3,7 +3,6 @@
 def calculate_average(m1, m2, m3):
     return (m1 + m2 + m3) / 3
 
-
 def assign_grade(avg):
     if avg >= 90:
         return "S"
@@ -17,8 +16,7 @@ def assign_grade(avg):
         return "D"
     else:
         return "F"
-
-
+    
 if __name__ == "__main__":
     import sys
     print("=== Student Grade Calculator ===")
